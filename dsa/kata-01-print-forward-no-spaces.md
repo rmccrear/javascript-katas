@@ -4,15 +4,20 @@
 
 Write a function that reads a string from front to back and prints the characters while skipping spaces.
 
-For testing, return the final string after you build it.
+Print each character on its own line with `console.log`.
 
 ## Examples
 
 ```js
-printForwardNoSpaces("hello world"); // "helloworld"
-printForwardNoSpaces("a b c"); // "abc"
-printForwardNoSpaces(" no spaces "); // "nospaces"
-printForwardNoSpaces(""); // ""
+printForwardNoSpaces("a b c");
+```
+
+Output:
+
+```text
+a
+b
+c
 ```
 
 ## Requirements
@@ -21,7 +26,8 @@ printForwardNoSpaces(""); // ""
 - Accept one argument: a string.
 - Loop through the string from the first character to the last character.
 - Skip space characters.
-- Return the new string.
+- Use `console.log` to print each non-space character.
+- Each printed character should appear on its own line.
 
 ## Starter Code
 
@@ -31,21 +37,41 @@ function printForwardNoSpaces(text) {
 }
 ```
 
-## Test Cases
+## Manual Tests
 
 ```js
-console.log(printForwardNoSpaces("hello world") === "helloworld");
-console.log(printForwardNoSpaces("a b c") === "abc");
-console.log(printForwardNoSpaces(" no spaces ") === "nospaces");
-console.log(printForwardNoSpaces("") === "");
+printForwardNoSpaces("hello world");
+// h
+// e
+// l
+// l
+// o
+// w
+// o
+// r
+// l
+// d
+
+printForwardNoSpaces(" no spaces ");
+// n
+// o
+// s
+// p
+// a
+// c
+// e
+// s
+
+printForwardNoSpaces("");
+// prints nothing
 ```
 
 ## Hints
 
 - Use a counter that starts at `0`.
 - Move the counter forward one step at a time.
-- Build a result string as you go.
-- Only add the current character when it is not a space.
+- Look at one character per loop.
+- Only call `console.log` when the current character is not a space.
 
 ## Stretch Goal
 
@@ -56,4 +82,3 @@ Hint: this regular expression matches non-ASCII characters:
 ```js
 /[^\x00-\x7F]/
 ```
-

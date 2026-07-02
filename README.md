@@ -5,7 +5,7 @@ Practice exercises for JavaScript, React, ES6, and data structures/algorithms.
 ## Kata Tracks
 
 - [React](./react/) - imported React component, state, list, filter, reduce, and async API katas.
-- [ES6](./es6/) - placeholder for upcoming ES6 language katas.
+- [ES6](./es6/) - fluent string and array method katas.
 - [DSA](./dsa/) - data structures and algorithms katas, starting with string counters and palindrome checking.
 
 ## Imported Source
