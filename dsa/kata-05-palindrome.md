@@ -48,15 +48,15 @@ console.log(isPalindrome("0P") === false);
 
 ## Hints
 
-<details>
-<summary>Click for hints</summary>
-
 If this is tough, try working through earlier katas in the series:
 
 - [Kata 1: Print Forward Without Spaces](./kata-01-print-forward-no-spaces.md) - practice scanning a string from the front while skipping characters.
 - [Kata 2: Print Backward](./kata-02-print-backward.md) - practice scanning a string from the back.
 - [Kata 3: Count Letter A](./kata-03-count-letter-a.md) - practice checking one character at a time and updating a value.
 - [Kata 4: Contains At Least Three A's](./kata-04-contains-three-as.md) - practice turning a scan into a `true` or `false` answer.
+
+<details>
+<summary>Click for hints</summary>
 
 - Normalize the string before comparing characters.
 - `toLowerCase()` can help with capitalization.

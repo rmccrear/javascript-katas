@@ -68,14 +68,14 @@ printForwardNoSpaces("");
 
 ## Hints
 
-<details>
-<summary>Click for hints</summary>
-
 If this is tough, break this kata into smaller steps first:
 
 - Print every character in the string with `console.log`.
 - Add an `if` statement that checks whether the current character is a space.
 - Only print when the current character is not a space.
+
+<details>
+<summary>Click for hints</summary>
 
 - Use a counter that starts at `0`.
 - Move the counter forward one step at a time.
