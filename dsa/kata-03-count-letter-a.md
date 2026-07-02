@@ -39,12 +39,21 @@ console.log(countLetterA("") === 0);
 
 ## Hints
 
+<details>
+<summary>Click for hints</summary>
+
+If this is tough, try working through earlier katas in the series:
+
+- [Kata 1: Print Forward Without Spaces](./kata-01-print-forward-no-spaces.md) - practice scanning a string from front to back with a counter.
+- [Kata 2: Print Backward](./kata-02-print-backward.md) - reinforces that a counter can move through a string in either direction.
+
 - Start a counter at `0`.
 - Loop through the string from front to back.
 - Each time the current character is `"a"`, add `1` to the counter.
+
+</details>
 
 ## Stretch Goals
 
 - Count uppercase `"A"` as well.
 - Let the caller choose which letter to count.
-

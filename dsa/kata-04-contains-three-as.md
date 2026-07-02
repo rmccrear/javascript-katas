@@ -41,13 +41,22 @@ console.log(containsAtLeastThreeAs("") === false);
 
 ## Hints
 
+<details>
+<summary>Click for hints</summary>
+
+If this is tough, try working through earlier katas in the series:
+
+- [Kata 1: Print Forward Without Spaces](./kata-01-print-forward-no-spaces.md) - practice visiting each character in order.
+- [Kata 3: Count Letter A](./kata-03-count-letter-a.md) - this kata uses the same counter, then compares the final count to `3`.
+
 - This starts the same way as `countLetterA`.
 - Keep a counter as you scan the string.
 - After the loop, compare the counter to `3`.
+
+</details>
 
 ## Stretch Goals
 
 - Return early as soon as the count reaches `3`.
 - Count uppercase `"A"` as well.
 - Let the caller choose the letter and the minimum count.
-

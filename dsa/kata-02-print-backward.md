@@ -57,17 +57,31 @@ printBackward("");
 
 ## Hints
 
+<details>
+<summary>Click for hints</summary>
+
+If this is tough, try working through earlier katas in the series:
+
+- [Kata 1: Print Forward Without Spaces](./kata-01-print-forward-no-spaces.md) - practice moving a counter through a string and printing one character at a time.
+
 - Use a counter that starts at `text.length - 1`.
 - Move the counter backward one step at a time.
 - Look at one character per loop.
 - Call `console.log` for the current character.
 
+</details>
+
 ## Stretch Goal
 
 Filter out spaces and non-ASCII characters while printing backward.
 
-Hint: this regular expression matches non-ASCII characters:
+<details>
+<summary>Click for stretch hint</summary>
+
+This regular expression matches non-ASCII characters:
 
 ```js
 /[^\x00-\x7F]/
 ```
+
+</details>

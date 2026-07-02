@@ -68,17 +68,33 @@ printForwardNoSpaces("");
 
 ## Hints
 
+<details>
+<summary>Click for hints</summary>
+
+If this is tough, break this kata into smaller steps first:
+
+- Print every character in the string with `console.log`.
+- Add an `if` statement that checks whether the current character is a space.
+- Only print when the current character is not a space.
+
 - Use a counter that starts at `0`.
 - Move the counter forward one step at a time.
 - Look at one character per loop.
 - Only call `console.log` when the current character is not a space.
 
+</details>
+
 ## Stretch Goal
 
 Filter out non-ASCII characters too.
 
-Hint: this regular expression matches non-ASCII characters:
+<details>
+<summary>Click for stretch hint</summary>
+
+This regular expression matches non-ASCII characters:
 
 ```js
 /[^\x00-\x7F]/
 ```
+
+</details>
