@@ -4,15 +4,20 @@
 
 Write a function that reads a string from back to front and prints the characters in reverse order.
 
-For testing, return the final string after you build it.
+Print each character on its own line with `console.log`.
 
 ## Examples
 
 ```js
-printBackward("hello"); // "olleh"
-printBackward("abc"); // "cba"
-printBackward("race car"); // "rac ecar"
-printBackward(""); // ""
+printBackward("abc");
+```
+
+Output:
+
+```text
+c
+b
+a
 ```
 
 ## Requirements
@@ -20,7 +25,8 @@ printBackward(""); // ""
 - Create a function named `printBackward`.
 - Accept one argument: a string.
 - Loop through the string from the last character to the first character.
-- Return the reversed string.
+- Use `console.log` to print each character.
+- Each printed character should appear on its own line.
 
 ## Starter Code
 
@@ -30,20 +36,31 @@ function printBackward(text) {
 }
 ```
 
-## Test Cases
+## Manual Tests
 
 ```js
-console.log(printBackward("hello") === "olleh");
-console.log(printBackward("abc") === "cba");
-console.log(printBackward("race car") === "rac ecar");
-console.log(printBackward("") === "");
+printBackward("hello");
+// o
+// l
+// l
+// e
+// h
+
+printBackward("abc");
+// c
+// b
+// a
+
+printBackward("");
+// prints nothing
 ```
 
 ## Hints
 
 - Use a counter that starts at `text.length - 1`.
 - Move the counter backward one step at a time.
-- Build a result string as you go.
+- Look at one character per loop.
+- Call `console.log` for the current character.
 
 ## Stretch Goal
 
@@ -54,4 +71,3 @@ Hint: this regular expression matches non-ASCII characters:
 ```js
 /[^\x00-\x7F]/
 ```
-
